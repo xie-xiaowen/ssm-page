@@ -1,0 +1,53 @@
+/* --------------------------------------  导航条  start ---------------------------------- */
+.navbar{ background: #438EB9; border-bottom: 1px solid #4F99C6;}
+.navbar #navbar {float: right;}
+.navbar .collapsed{ border: 1px solid #FFFFFF;}
+.navbar .title-name{ font-size: 2rem; font-weight: 500; color: #FFFFFF; margin: 13px 0; line-height: 100%;}
+.navbar .navbar-nav a{ color: #FFFFFF; padding: 12px;}
+.navbar .highlight-nav-ico{color: #FFFFFF; font-size: 2rem;}
+.navbar .highlight-nav-info{ display: inline-block; background: #AAAAAA; color: #FFFFFF; padding: 0 5px 0 6px; border-radius: 100%; width: 20px; height: 20px; position: relative; top: -3px;}
+.navbar .highlight-nav1{ background: #555555; border-right: 1px solid #FFFFFF;}
+.navbar .highlight-nav1:hover{background-color: #444444  !important;}
+.navbar .highlight-nav2{ background: #892E65; border-right: 1px solid #FFFFFF;}
+.navbar .highlight-nav2:hover{ background-color: #781D54 !important;}
+.navbar .highlight-nav3{ background: #2E8965; border-right: 1px solid #FFFFFF;}
+.navbar .highlight-nav3:hover{ background-color: #1D7854 !important;}
+.navbar a.highlight-user{ padding: 0 10px; height: 49px; background: #76A0DB;}
+.navbar a.highlight-user:hover{ background: #549FCA !important;}
+.navbar a.highlight-user span{ display: inline-block; color: #FFFFFF;}
+.navbar a.highlight-user .highlight-user-img{ padding-right: 10px;}
+.navbar a.highlight-user img{ border-radius: 100%; border: 2px solid #FFFFFF; position: relative; top: -6px}
+.navbar a.highlight-user .highlight-user-info{ position: relative; top: 3px;}
+.navbar a.highlight-user .highlight-user-info small{ display: block;}
+.navbar a.highlight-user .highlight-user-many{ position: relative; top: -5px; padding: 0 5px;}
+/* --------------------------------------  导航条   end   ---------------------------------- */
+.body{ padding-top: 51px; height: 100%;}
+.body .row{ height: 100%; position: relative;}
+.body #left-menu{ height: 100%; border-right: 1px solid #CCCCCC; padding: 0;}
+.body #left-menu li{ background: #f8f8f8; border-bottom: 1px solid #E0E0E0;}
+.body #left-menu li a{ padding: 10px 18px; display: block; position: relative;}
+.body #left-menu li a:hover{ text-decoration: none; background: #FFFFFF; border-left: 3px solid #438EB9;}
+.body #left-menu li .left-menu-sub1 i{ color: #438EB9;}
+.body #left-menu li .left-menu-sub2 i{ color: #BF6640;}
+.body #left-menu li .left-menu-sub3 i{ color: #69AA46;}
+.body #left-menu li .left-menu-sub4 i{ color: #FF892A;}
+.body #left-menu li .left-menu-sub5 i{ color: #A069C3;}
+.body #left-menu li .left-menu-sub6 i{ color: #D1A0BB;}
+.body #left-menu li .left-menu-sub7 i{ color: #DD5A43;}
+.body #left-menu li .left-menu-sub8 i{ color: #478FCA;}
+.body #left-menu li .left-menu-sub9 i{ color: #69AA46;}
+.body #left-menu li .left-menu-sub10 i{ color: #B9A0CF;}
+.body #left-menu li .left-menu-sub11 i{ color: #A52A2A;}
+.body #left-menu li .left-menu-sub12 i{ color: #A66859;}
+.body #left-menu li .left-menu-sub13 i{ color: #26D9D9;}
+.body #left-menu li .left-menu-sub14 i{ color: #668E99;}
+.body #left-menu li .left-menu-sub15 i{ color: #113965}
+.body #left-menu li i{ font-size: 1.6rem;}
+.body #left-menu li span{ position: relative; top: -1px; padding-left: 15px;}
+.body #left-menu li .left-menu-drop{ position: absolute; right: 10px; top: 12px;}
+
+
+.body #right-content{ height: 93%; padding: 0; position: fixed; right: 0;}
+.body #right-content .content-history{ width: 100%; height: 30px; border-bottom: 1px solid #438EB9; position: absolute; top: 0px; padding-top: 5px;}
+.body #right-content .content-history li{ padding: 0 15px; margin: 0 5px; background: #438EB9; color: #FFFFFF; float: left; line-height: 25px;}
+.body #right-content iframe{ padding-top: 31px;}

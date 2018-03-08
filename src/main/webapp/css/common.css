@@ -1,0 +1,5 @@
+html,body,h2,ul,li{margin: 0; padding: 0; }
+li{list-style: none;}
+a{text-decoration: none; color: #888888;}
+html{font-size: 62.5%; height: 100%; /*width: 100%;*/ background: #FFFFFF;}
+body{height: 100%; width: 100%; font-size: 1.4rem !important; color: #888888; font-family: "Microsoft YaHei","微软雅黑","verdana, geneva, arial, helvetica, sans-serif";}
